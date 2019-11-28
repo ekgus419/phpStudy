@@ -10,7 +10,7 @@ $uBirthDay = $_POST['birthYear'].'-'.$_POST['birthMonth'].'-'.$_POST['birthDay']
 $uGender = $_POST['userGender'];
 
 $sql = "INSERT INTO Member (userId, name, password,";
-$sql .= " phone, email, birthDay, gender, regTime)";
+$sql .= " phone, email, birthDay, gender, regDate)";
 $sql .= "VALUES ('{$uId}','{$uName}','{$uPw}','{$uPhone}',";
 $sql .= "'{$uEmail}','{$uBirthDay}','{$uGender}',NOW())";
 

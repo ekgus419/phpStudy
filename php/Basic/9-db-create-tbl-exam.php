@@ -11,7 +11,7 @@ $sql .= "phone varchar(13) not null comment '고객 휴대전화 번호',";
 $sql .= "email varchar(30) not null comment '고객 이메일 주소',";
 $sql .= "birthDay char(10) not null comment '고객 생일',";
 $sql .= "gender enum('m','w','x') default 'x' comment '고객 성별',";
-$sql .= "regTime datetime not null comment '회원가입 시간',";
+$sql .= "regDate datetime not null comment '회원가입 시간',";
 $sql .= "primary key(myMemberID))";
 $sql .= "charset=utf8 comment='고객 정보 테이블';";
 
